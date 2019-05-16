@@ -4,7 +4,7 @@
 
 SUSY samples are generated with Pythia 8 using the CMSSW_8_0_20_patch1 release.
 
-*Installation and execution*
+**Installation and execution**
 
 ```
 cmsrel CMSSW_8_0_20_patch1
