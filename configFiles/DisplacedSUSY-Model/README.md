@@ -5,7 +5,9 @@
 SUSY samples are generated with Pythia 8 using the CMSSW_8_0_20_patch1 release.
 
 **Installation and execution**
+
 The CMSSW release and the workdir are initiallized as follows:
+
 ```
 cmsrel CMSSW_8_0_20_patch1
 
@@ -29,7 +31,9 @@ cmsRun DisplacedSUSY_squarkToQuarkChi_MSquark_1500_MChi_494_ctau_160mm_TuneCP2_1
 DRPremix samples are generated in a 2-step workflow with the CMSSW_8_0_21 release.
 
 ** Installation and execution**
+
 The CMSSW release and the workdir are initiallized as follows:
+
 ```
 cmsrel CMSSW_8_0_21
 
@@ -60,7 +64,9 @@ cmsRun DisplacedSUSY_RunIISummer16DR80Premix_cfg.py
 MiniAOD samples are generated using the CMSSW_9_4_9 release.
 
 ** Installation and execution**
+
 The CMSSW release and the workdir are initiallized as follows:
+
 ```
 cmsrel CMSSW_9_4_9
 
