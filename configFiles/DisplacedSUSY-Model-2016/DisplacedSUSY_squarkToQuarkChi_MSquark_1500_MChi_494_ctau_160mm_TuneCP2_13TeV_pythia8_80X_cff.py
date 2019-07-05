@@ -10,7 +10,7 @@
 COM_ENERGY = 13000. # GeV
 MASS_POINT = 1500.0   # GeV
 CROSS_SECTION = 399435E-03 # pb Atencion
-CTAU_POINT = 160 # mm <- stop lifetime Atencion
+CTAU_POINT = 160.0 # mm <- stop lifetime Atencion
 SLHA_TABLE = """## Important note!
 ## This file has been modified by hand to give the gluino and the
 ## stop_1 a very narrow width, such that it can be used to try out
@@ -106,7 +106,7 @@ BLOCK MASS  # Mass Spectrum
    2000015     2.06867805E+05   # ~tau_2
    1000016     1.84708464E+05   # ~nu_tauL
    1000021            5.0E+05   # ~g
-   1000022            494.0   # ~chi_10
+   1000022         494.0        # ~chi_10
    1000023     1.81088157E+05   # ~chi_20
    1000025    -3.63756027E+05   # ~chi_30
    1000035     3.81729382E+05   # ~chi_40
@@ -854,7 +854,7 @@ process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
  # Please use CondCore.CondDB.CondDB_cfi.py        
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(150)
+    input = cms.untracked.int32(10)
 )
 
 # Input source
