@@ -34,7 +34,7 @@ The configuration file is created by running the following ```cmsDriver.py``` co
 ```
 SEED=$(($(date +%s) % 100 + 1))
 
-cmsDriver.py Configuration/GenProduction/python/NLO_HToSSTo4l_MH_125_MS30_ctauS10_13TeV.py --python_filename EXO-RunIISummer15wmLHEGS-125_30_10_cfg.py --eventcontent RAWSIM,LHE --customise SLHCUpgradeSimulations/Configuration/postLS1Customs.customisePostLS1,Configuration/DataProcessing/Utils.addMonitoring --datatier GEN-SIM,LHE --fileout file:EXO-RunIISummer15wmLHEGS-10015.root --conditions MCRUN2_71_V1::All --beamspot Realistic50ns13TeVCollision --customise_commands process.RandomNumberGeneratorService.externalLHEProducer.initialSeed="int(${SEED})" --step LHE,GEN,SIM --magField 38T_PostLS1 --no_exec --mc -n 10
+cmsDriver.py Configuration/GenProduction/python/NLO_HToSSTo4l_MH_125_MS30_ctauS10_13TeV.py --python_filename EXO-RunIISummer15wmGS-125_30_10_cfg.py --eventcontent RAWSIM --customise SLHCUpgradeSimulations/Configuration/postLS1Customs.customisePostLS1,Configuration/DataProcessing/Utils.addMonitoring --datatier GEN-SIM --fileout file:EXO-RunIISummer15wmGS-10015.root --conditions MCRUN2_71_V1::All --beamspot Realistic50ns13TeVCollision --customise_commands process.RandomNumberGeneratorService.externalLHEProducer.initialSeed="int(${SEED})" --step LHE,GEN,SIM --magField 38T_PostLS1 --no_exec --mc -n 10
 ```
 
 ## Crab launching
@@ -48,7 +48,7 @@ voms-proxy-init --voms cms
 and run the command:
 
 ```
-python create-crab.py -n 50000 -s 50 -c EXO-RunIISummer15wmLHEGS-125_30_10_cfg.py -H 125 -X 30 -T 10
+python create-crab.py -n 50000 -s 50 -c EXO-RunIISummer15wmGS-125_30_10_cfg.py -H 125 -X 30 -T 10
 ```
 
 

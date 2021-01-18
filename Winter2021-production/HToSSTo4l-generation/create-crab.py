@@ -47,7 +47,7 @@ config.Data.outLFNDirBase = '/store/user/fernance/'
 config.Data.publication = True
 config.Data.outputPrimaryDataset = 'ggH_HToSSTo4l_MH-MASSHIGGS_MS-MASSX_ctauS-CTAU_TuneCUEP8M1_13TeV-powheg-pythia8'
 
-config.Data.outputDatasetTag = 'RunIISummer15wmLHEGS-71X'
+config.Data.outputDatasetTag = 'RunIISummer15wmGS-71X'
 
 config.Site.storageSite = 'T2_ES_IFCA'
 '''    
