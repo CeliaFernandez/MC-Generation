@@ -13,6 +13,13 @@ else
 fi
 cd CMSSW_9_3_18/src
 eval `scram runtime -sh`
+
+```
+
+We get the files to generate the fragments and crab config files (in any directory that we choose). <strong>CAUTION: These are NOT the same of the ones used in other 2016 nor 2018 productions</strong>.
+```
+wget https://raw.githubusercontent.com/CeliaFernandez/MC-Generation/master/Winter2021-production/HToSSTo4l-2017generation/generator_TuneCP5.py
+wget https://raw.githubusercontent.com/CeliaFernandez/MC-Generation/master/Winter2021-production/HToSSTo4l-2017generation/generator_TuneCP5.py
 ```
 
 Then we just have to generate the fragment of the mass point we just want to produce e.g. 50000 events with mH = 400 GeV, mX = 50 GeV and ctau = 1 mm:
