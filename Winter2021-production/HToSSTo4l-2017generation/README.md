@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/CeliaFernandez/MC-Generation/master/Winte
 Then we just have to generate the fragment of the mass point we just want to produce e.g. 50000 events with mH = 400 GeV, mX = 50 GeV and ctau = 1 mm:
 
 ```
-python generator_TuneCUEP8M1.py -n 50000 -H 400 -X 50 -T 1
+python generator_TuneCP5.py -n 50000 -H 400 -X 50 -T 1
 ```
 
 This command will produce the corresponding fragment in the ```Configuration/GenProduction/python/``` directory. The example fragment is then:
