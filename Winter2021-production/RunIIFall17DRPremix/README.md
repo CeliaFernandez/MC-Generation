@@ -19,8 +19,10 @@ cd ../..
 ```
 In this step the cfg files are alreade available in the repo, you can dowload them by running:
 ```
-wget [path to be updated]
-wget [path to be updated]
+wget https://raw.githubusercontent.com/CeliaFernandez/MC-Generation/master/Winter2021-production/RunIIFall17DRPremix/EXO-RunIIFall17DRPremix-1_cfg.py
+wget https://raw.githubusercontent.com/CeliaFernandez/MC-Generation/master/Winter2021-production/RunIIFall17DRPremix/EXO-RunIIFall17DRPremix-2_cfg.py
+wget https://raw.githubusercontent.com/CeliaFernandez/MC-Generation/master/Winter2021-production/RunIIFall17DRPremix/create-crab_RunIIFall17DRPremix-1.py
+wget https://raw.githubusercontent.com/CeliaFernandez/MC-Generation/master/Winter2021-production/RunIIFall17DRPremix/create-crab_RunIIFall17DRPremix-2.py
 ```
 
 
